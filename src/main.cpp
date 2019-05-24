@@ -10,10 +10,10 @@
 #define LCD_CLK 4
 #define LCD_DIO 5
 #define LED_ALARM 10 // pin for LED light
-#define LED_ALARM_ON_VALUE 90 // if it is 90 or higher, turn on the led
+#define LED_ALARM_ON_VALUE 50 // if it is 90 or higher, turn on the led
 
-#define MIN 10  // minimal distance in cm for 0%
-#define MAX 200 // maximal distance in cm for 100%
+#define MIN 50  // minimal distance in cm for 0%
+#define MAX 250 // maximal distance in cm for 100%
 
 const uint8_t CLEARDATA[4] = { 0x00, 0x00, 0x00, 0x00 };
 TM1637Display display(LCD_CLK, LCD_DIO); // initiates LCD
