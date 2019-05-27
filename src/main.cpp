@@ -4,12 +4,12 @@
 #include <MedianFilter.h>
 
 // pin definitions
-#define USONIC_TRIGGER 8
-#define USONIC_ECHO    9
+#define USONIC_TRIGGER 5
+#define USONIC_ECHO    4
 #define MAX_DISTANCE   400 // max countable distance in cm
-#define LCD_CLK 4
-#define LCD_DIO 5
-#define LED_ALARM 10 // pin for LED light
+#define LCD_CLK 3
+#define LCD_DIO 2
+#define LED_ALARM 7 // pin for LED light
 #define LED_ALARM_ON_VALUE 50 // if it is 90 or higher, turn on the led
 
 #define MIN 50  // minimal distance in cm for 0%
